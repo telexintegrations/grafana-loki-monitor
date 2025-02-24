@@ -42,8 +42,8 @@ Use the following `curl` command to test the integration:
 curl -X POST "https://telex-integration.onrender.com/tick" \
      -H "Content-Type: application/json" \
      -d '{
-        "channel_id": "01952e92-8ab0-7c08-9df4-dbaa1f4d6c9d",
-        "return_url": "https://ping.telex.im/v1/webhooks/01952e92-8ab0-7c08-9df4-dbaa1f4d6c9d",
+        "channel_id": "019536dd-4507-7e99-abeb-36141e92a894",
+        "return_url": "https://ping.telex.im/v1/webhooks/019536dd-4507-7e99-abeb-36141e92a894",
         "settings": [
             {
                 "default": "http://100.27.210.53:3100",
@@ -68,7 +68,7 @@ curl -X POST "https://telex-integration.onrender.com/tick" \
 ```
 
 Check the received logs at:  
-🔗 [Telex Dashboard](https://telex.im/dashboard/channels/01952e92-8ab0-7c08-9df4-dbaa1f4d6c9d)  
+🔗 [Telex Dashboard](https://telex.im/dashboard/channels/019536dd-4507-7e99-abeb-36141e92a894)  
 
 ---
 
